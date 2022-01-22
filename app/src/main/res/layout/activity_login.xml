@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edt_logusername"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="Email address"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:textFontWeight="400"
+        android:textSize="16dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_logpassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:textFontWeight="400"
+        android:layout_marginTop="25dp"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_700"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_logsignin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:text="Sign In"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_200"
+        android:textFontWeight="400"
+        android:layout_marginTop="60dp"
+        android:textSize="16dp"/>
+
+</LinearLayout>
